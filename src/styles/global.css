@@ -1,0 +1,26 @@
+
+:root{
+--bg:#071418;
+--panel:#0d1f24;
+--primary:#1e6f7f;
+--accent:#58c8d8;
+--text:#e8f3f4;
+}
+body{
+margin:0;background:var(--bg);color:var(--text);
+font-family:system-ui,sans-serif;
+}
+section{max-width:1000px;margin:auto;padding:5rem 2rem}
+.hero{text-align:center;padding-top:8rem}
+.crystal{
+font-size:5rem;color:var(--accent);
+animation:float 3s ease-in-out infinite;
+}
+.btn{
+display:inline-block;padding:1rem 1.5rem;
+background:var(--primary);color:white;text-decoration:none;border-radius:12px
+}
+@keyframes float{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-12px)}
+}
